@@ -7,15 +7,11 @@ A  simple budgeting app that keeps track of user generated transactions wihtin a
 
 The program has 4 mains functions: "withdraw", "deposit", "transfer", "check funds", and "get balance".
 
-•	The deposit function accepts an amount and description and returns an object which is appended to the ledger list in form of {"amount": amount, "description": description}.
-
-•	The withdraw function is similar to the deposit function, but the amount passed in should be stored in the ledger as a negative number.
-
-•	The get_balance function returns the current balance of the budget category based on the deposits and withdrawals that have occurred.
-
-•	The transferfunction accepts an amount and a destination category as arguments. The function will withdrawal the amount from the source catgeory and deposit it into the desired category.
-
-•	A check_funds function accepts an amount as an argument and returns False if the amount is greater than the balance of the budget category or returns True if otherwise.
+-The deposit function accepts an amount and description and returns an object which is appended to the ledger list in form of {"amount": amount, "description": description}.
+-The withdraw function is similar to the deposit function, but the amount passed in should be stored in the ledger as a negative number.
+-The get_balance function returns the current balance of the budget category based on the deposits and withdrawals that have occurred.
+-The transferfunction accepts an amount and a destination category as arguments. The function will withdrawal the amount from the source catgeory and deposit it into the desired category.
+-	A check_funds function accepts an amount as an argument and returns False if the amount is greater than the balance of the budget category or returns True if otherwise.
 
 Here is an example of the Create_spend_chart bar chart:
 
