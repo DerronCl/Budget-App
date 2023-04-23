@@ -12,7 +12,7 @@ Transfer to Clothing    -50.00
 Total: 923.96
 ```
 
-The program has 6 mains functions: 
+## The program has 6 mains functions: 
 - *Deposit function*: accepts an amount and description and returns an object which is appended to the ledger list in form of {"amount": amount, "description": description}. 
 - *Withdraw function*: similar to the deposit function, but the amount passed in should be stored in the ledger as a negative number.
 - *Transfer function*: accepts an amount and a destination category as arguments. The function will withdrawal the amount from the source catgeory and deposit it into the desired category
@@ -20,7 +20,7 @@ The program has 6 mains functions:
 - *Get_Balance function*: returns the current balance of the budget category based on the deposits and withdrawals that have occurred. 
 - *Create_Spend_Chart function*: creates a visualization of the total dollar amounts per category in the ledger. 
 
-Here is an example of the ![Create_spend_chart bar chart](Chart_visuals.png):
+## Here is an example of the Create_Spend_Chart visualization:
+- ![photo](Chart_visuals.png):
 
-        
 The project was originally posted [here](https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app) on Freecodecamp, but I modified it to handle more complexity.  
