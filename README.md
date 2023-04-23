@@ -20,7 +20,7 @@ The program has 6 mains functions:
 - *Get_Balance function*: returns the current balance of the budget category based on the deposits and withdrawals that have occurred. 
 - *Create_Spend_Chart function*: creates a visualization of the total dollar amounts per category in the ledger. 
 
-Here is an example of the ![Create_spend_chart bar chart](chart_visuals.png):
+Here is an example of the ![Create_spend_chart bar chart](Budget-App/Chart_visuals.png):
 
         
 The project was originally posted [here](https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app) on Freecodecamp, but I modified it to handle more complexity.  
